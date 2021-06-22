@@ -31,6 +31,10 @@ label start:
 
     e "testicles"
 
+    e "this shit is bad shit crazy"
+
+    e "what the hell is happening????"
+
     # This ends the game.
 
     return
