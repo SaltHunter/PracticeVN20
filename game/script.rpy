@@ -35,6 +35,8 @@ label start:
 
     e "what the hell is happening????"
 
+    e "fucking confusing"
+
     # This ends the game.
 
     return
