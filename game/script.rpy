@@ -4,38 +4,33 @@
 # name of the character.
 
 define e = Character("Eileen")
-define a = Character("Aiko")
+define a = Character("Alice")
 
 
 # The game starts here.
 
+
+# TODO_1: Make a simple Visual Novel with Menu Choices of Y and N where one choice leads to one route
+# TODO_2: Enhance on the concept, make 5-10 choices, which a combination of say 10 choices would lead to one heroine.
 label start:
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    # scene bg room
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    # show eileen happy
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    e "testicles"
-
-    e "this shit is bad shit crazy"
-
-    e "what the hell is happening????"
-
-    e "fucking confusing"
+    
 
     # This ends the game.
 
