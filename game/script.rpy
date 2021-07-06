@@ -30,7 +30,7 @@ label start:
 
     "what's up blyat, what are we doin today?"
 
- Menu:
+   menu:
      "what do you want to do for today?"
 
      "kill some annoying cunts in the office"
