@@ -46,6 +46,6 @@ label start:
     # This ends the game.
 
 label home:
-        e "and here we are :V, were being taking the day off huh."
+        e "and here we are :V, were taking the day off huh."
 
     return
