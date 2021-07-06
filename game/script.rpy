@@ -74,18 +74,18 @@ label home:
         
         "Beat your old min*craft speedrun records":
             e "are you serious right now"
-            jump home
+            jump home2
 
 
 label supermarket:
     "Getting instant noodles and other ingredients"
-    jump home
+    jump home2
 
 label basecamp:
     "got a lot of suspicious weapon blueprints and other stuff that we could use to press them"
-    jump home
+    jump home2
 
-label home:
+label home2:
     e "4 runs in 6 hours, and u still havent borken the latest record"
 
 
