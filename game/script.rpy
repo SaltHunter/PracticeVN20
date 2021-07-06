@@ -74,7 +74,7 @@ label home:
         
         "Beat your old min*craft speedrun records":
             e "are you serious right now"
-            jump Home
+            jump home
 
 
 label supermarket:
