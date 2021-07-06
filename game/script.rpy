@@ -43,11 +43,8 @@ label start:
         e "dood u just got here"
         jump home
     
-    Label home:
+    label home:
         e "and here we are :V, were being taking the day off huh"
-
-
-
     # This ends the game.
 
     return
