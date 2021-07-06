@@ -30,14 +30,16 @@ label start:
 
     "what's up blyat, what are we doin today?"
 
-   menu:
+    menu choice1:
      "what do you want to do for today?"
 
      "kill some annoying cunts in the office.":
         e "should be fun ill grab my bazooka."
+        jump killchoice
      
      "make new coffee potions.":
         e "errr last time we did that our lab blew up because you added baking soda."
+        jump coffee
      
      "Go back home":
         e "dood u just got here."
@@ -45,7 +47,15 @@ label start:
     
     # This ends the game.
 
+label killchoice:
+    "So i killed everyone in the office and went home afterward."
+    jump home
+
+label coffee:
+    "So i made a new coffee brew and went home."
+    jump home
+
 label home:
         e "and here we are :V, were taking the day off huh."
 
-    return
+return
