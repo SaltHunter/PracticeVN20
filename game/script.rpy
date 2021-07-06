@@ -33,13 +33,13 @@ label start:
    menu:
      "what do you want to do for today?"
 
-     "kill some annoying cunts in the office."
+     "kill some annoying cunts in the office.":
         e "should be fun ill grab my bazooka."
      
-     "make new coffee potions."
+     "make new coffee potions.":
         e "errr last time we did that our lab blew up because you added baking soda."
      
-     "Go back home"
+     "Go back home":
         e "dood u just got here."
         jump home
     
