@@ -45,7 +45,7 @@ label start:
         e "dood u just got here."
         jump home
     
-    # This ends the game.
+    
 
 label killchoice:
     "So i killed everyone in the office and went home afterward."
@@ -57,5 +57,41 @@ label coffee:
 
 label home:
         e "and here we are :V, were taking the day off huh."
+
+
+    "Morning what's on todays schedule"
+
+    menu choice2:
+        "What are you going to do?"
+
+        "Get food stocked up":
+            e "now that you mention it the fridge is almost empty thanks to you making weird potions in the lab almost everytime"
+            jump supermarket
+
+        "hack into CN's Government military server and grab they're confidentials"
+            e "sounds fun lets screw them up for ruining our favorite culture and games"
+            jump basecamp
+        
+        "Beat your old min*craft speedrun records"
+            e "are you serious right now"
+            jump Home
+
+
+label supermarket:
+    "Getting instant noodles and other ingredients"
+    jump home
+
+label basecamp:
+    "got a lot of suspicious weapon blueprints and other stuff that we could use to press them"
+    jump home
+
+label home:
+    e "4 runs in 6 hours, and u still havent borken the latest record"
+
+
+
+
+# This ends the game.
+
 
 return
