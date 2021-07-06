@@ -56,7 +56,7 @@ label coffee:
     jump home
 
 label home:
-        e "and here we are :V, were taking the day off huh."
+    e "and here we are :V, were taking the day off huh."
 
 
     "Morning what's on todays schedule"
