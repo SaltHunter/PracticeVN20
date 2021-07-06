@@ -68,11 +68,11 @@ label home:
             e "now that you mention it the fridge is almost empty thanks to you making weird potions in the lab almost everytime"
             jump supermarket
 
-        "hack into CN's Government military server and grab they're confidentials"
+        "hack into CN's Government military server and grab they're confidentials":
             e "sounds fun lets screw them up for ruining our favorite culture and games"
             jump basecamp
         
-        "Beat your old min*craft speedrun records"
+        "Beat your old min*craft speedrun records":
             e "are you serious right now"
             jump Home
 
