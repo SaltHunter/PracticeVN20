@@ -28,9 +28,25 @@ label start:
 
     # These display lines of dialogue.
 
-    
+    "what's up blyat, what are we doin today?"
 
+ Menu:
+     "what do you want to do for today?"
+
+     "kill some annoying cunts in the office"
+        e "should be fun ill grab my bazooka"
+     
+     "make new coffee potions"
+        e "errr last time we did that our lab blew up because you added baking soda"
+     
+     "Go back home"
+        e "dood u just got here"
+        jump home
     
+    Label home:
+        e "and here we are :V, were being taking the day off huh"
+
+
 
     # This ends the game.
 
