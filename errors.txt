@@ -2,7 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 51: indentation mismatch.
+The label home is defined twice, at File "game/script.rpy", line 58:
+label home:
+and File "game/script.rpy", line 88:
+label home:
 
-Ren'Py Version: Ren'Py 7.3.5.606
-Tue Jul 06 22:16:14 2021
+
+Ren'Py Version: Ren'Py 7.4.6.1693
+Tue Jul  6 23:49:54 2021
