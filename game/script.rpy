@@ -86,7 +86,7 @@ label basecamp:
     jump home2
 
 label home2:
-    e "4 runs in 6 hours, and u still havent borken the latest record"
+    e "4 runs in 6 hours, and u still havent broken the latest record"
 
 
 
