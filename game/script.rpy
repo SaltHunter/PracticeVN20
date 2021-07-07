@@ -91,6 +91,7 @@ label home2:
 
 
 # hello
+# blyat
 # This ends the game.
 
 
